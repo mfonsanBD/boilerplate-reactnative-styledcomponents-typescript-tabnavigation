@@ -1,13 +1,14 @@
 import React from 'react';
-import { Feather } from '@expo/vector-icons';
 
 import * as S from './styles';
+import { Text } from 'react-native';
 
 export function Dashboard(){
   return (
     <S.Container>
-      <S.Header />
-      <Feather name="power" size={24} color="black" />
+      <S.Container>
+        <Text>Dashboard</Text>
+      </S.Container>
     </S.Container>
   );
 }
